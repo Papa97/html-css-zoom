@@ -6,8 +6,107 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: black;
+
 }
 
+.container-flex-left i,
+.container-flex-right i{
+  font-size: 34px;
+}
+/* ----main  */
+
+.cont-init{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#view,
+#arrows{
+  margin: 20px 5px 0 ;
+  background-color: grey;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.container-flex-tot{
+    display: flex;
+    justify-content: center;
+    padding: 33.5px 0;
+    
+}
+
+.container-flex-left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    color: white;
+    width: 5%;
+    align-items: center;
+
+}
+
+.container-flex-main{
+    height: calc(100vh - 120px) ;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+ .container-flex-main div{
+    position: relative;
+    margin: 5px 2px;
+}
+ .container-flex-main div p{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-weight: 600;
+}
+
+.red {
+    color: red;
+    position: absolute;
+    font-weight: 600;
+    font-size: 32px;
+    bottom: 5px;
+    left: 10px;
+}
+
+.microphone{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+
+img{
+    height: 190px;
+}
+
+.nome-cognome{
+  color: white;
+  
+}
+
+.container-flex-right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 5%;
+  }
+
+  .container-flex-right i {
+    color: cornflowerblue;
+  } 
 /* ---footer  */
 
 footer{
@@ -80,6 +179,7 @@ footer{
 {
     font-weight: 600;
     color: tomato;
+    padding-right: 20px;
 }
 
 /* ----debug */
