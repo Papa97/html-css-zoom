@@ -120,7 +120,8 @@ footer{
 }
 
 .cont-video i {
-  font-size: 34px;
+  font-size: 24px;
+  margin-bottom: 7px;
 }
 
 .chevron {
@@ -180,6 +181,11 @@ footer{
     font-weight: 600;
     color: tomato;
     padding-right: 20px;
+}
+
+.cont-video
+{
+  margin: 10px 0;
 }
 
 /* ----debug */
