@@ -10,6 +10,12 @@ body {
 
 /* ---footer  */
 
+footer{
+    color: white;
+    background-color:#212324 ;
+
+}
+
 .container-flex {
   display: flex;
 }
@@ -44,15 +50,36 @@ body {
   padding-left: 15px;
 }
 
+
+
 .main-foot {
-  width: calc(100% - 30%);
+  width: calc(100% - 25%);
   display: flex;
-  padding: 0 15px;
+  padding: 0 30px;
+  justify-content: center;
 
 }
 
+.active i{
+    color: green;
+}
+
+.main-foot .cont-video{
+    padding:0 30px
+}
 .right-foot {
   width: 10%;
+  background-color:#4a4b4d ;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.end
+{
+    font-weight: 600;
+    color: tomato;
 }
 
 /* ----debug */
